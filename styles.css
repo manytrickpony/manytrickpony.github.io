@@ -1,0 +1,39 @@
+html {
+    background-color: blanchedalmond;
+}
+
+form {
+    border: 5px solid #d3d3d3;
+    border-style: dashed;
+    max-width: 550px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+#results {
+    background-color: aquamarine;
+    border: 5px solid #d3d3d3;
+    border-style: groove;
+    max-width: 550px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+#submit-btn {
+    font-size: medium;
+    font-style: oblique;
+}
+
+#submit-btn:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+img {
+    width: 550px;
+    height: 350px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

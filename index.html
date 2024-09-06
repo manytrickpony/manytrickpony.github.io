@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Kristin Shurney</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <form action="results.html" method="get">
+            <h1>What type of boba drink are you based on your personality?</h1>
+            <p>Even if you're not too fond of boba, come give this quiz a try anyway. Who knows- you might turn out delicious!</p>
+
+            <div>
+                <label for="fname">What is your name?</label>
+                <input type="text" id="fname" name="fname" required>
+            </div>
+
+            <div>
+                <label for="amount">How many times a month do you get boba?</label>
+                <input type="number" id="amount" name="amount" step="2">
+            </div>
+
+            <div>
+                <p>Which movie genres do you enjoy?</p>
+                <input type="checkbox" id="comedy" name="genres" value="comedy">
+                <label for="comedy">Comedy</label>
+
+                <input type="checkbox" id="horror" name="genres" value="horror">
+                <label for="horror">Horror</label>
+
+                <input type="checkbox" id="romance" name="genres" value="romance">
+                <label for="romance">Romance</label>
+
+                <input type="checkbox" id="fantasy" name="genres" value="fantasy">
+                <label for="fantasy">Fantasy</label>
+            </div>
+
+            <div>
+                <p>What's your favorite season?</p>
+                <input type="radio" id="winter" name="seasonal" value="winter"> 
+                <label for="winter">Winter</label>
+
+                <input type="radio" id="spring" name="seasonal" value="spring"> 
+                <label for="spring">Spring</label>
+
+                <input type="radio" id="summer" name="seasonal" value="summer"> 
+                <label for="summer">Summer</label>
+
+                <input type="radio" id="fall" name="seasonal" value="fall"> 
+                <label for="fall">Fall</label>
+            </div>
+
+            <div>
+                <p>What's your favorite subject in school?</p>
+                <input type="radio" id="mathematics" name="school" value="mathematics"> 
+                <label for="mathematics">Mathematics</label>
+
+                <input type="radio" id="language arts" name="school" value="language arts"> 
+                <label for="language arts">Language Arts</label>
+
+                <input type="radio" id="science" name="school" value="science"> 
+                <label for="science">Science</label>
+
+                <input type="radio" id="social studies" name="school" value="social studies"> 
+                <label for="social studies">Social Studies</label>
+            </div>
+
+            <div>
+                <p>Where do you fall on the social scale?</p>
+                <label for="social">Extrovert to Introvert</label>
+                <input type="range" id="social" name="social"> 
+            </div>
+
+            <div>
+                <p>What types of beverages do you like to consume?</p>
+                <input type="checkbox" id="water" name="drinks" value="water">
+                <label for="water">Water</label>
+
+                <input type="checkbox" id="juice" name="drinks" value="juice">
+                <label for="juice">Fruit Juices</label>
+
+                <input type="checkbox" id="soda" name="drinks" value="soda">
+                <label for="soda">Sodas</label>
+
+                <input type="checkbox" id="tea" name="drinks" value="tea">
+                <label for="tea">Tea (of course!)</label> 
+
+                <input type="checkbox" id="coffee" name="drinks" value="coffee">
+                <label for="coffee">Coffee</label>
+
+                <input type="checkbox" id="other" name="drinks" value="other">
+                <label for="other">Other</label>
+            </div>
+
+            <div>
+                <input id="submit-btn" type="submit" value="Submit">
+            </div>
+
+        </form>
+    </body>
+</html>
